@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Яхт тур Blue Odyssey - Ionian Paradise" />
+  <title>Яхт тур Blue Odyssey - Ionian Paradise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+      <a href="index.html" class="logo">
+        <img src="/src/svg/svg.svg" alt="Blue Odyssey" class="logo-img" />
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#places" class="nav-link">Місця</a>
+        <a href="#yacht" class="nav-link">Яхта</a>
+        <a href="#skipper" class="nav-link">Шкіпер</a>
+        <a href="#rules" class="nav-link">Правила</a>
+        <a href="#what-to-take" class="nav-link">Що взяти</a>
+        <a href="#tips" class="nav-link">Поради</a>
+        <a href="#glossary" class="nav-link">Словник</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <nav class="mobile-nav">
+      <a href="#places" class="mobile-nav-link">Місця</a>
+      <a href="#yacht" class="mobile-nav-link">Яхта</a>
+      <a href="#skipper" class="mobile-nav-link">Шкіпер</a>
+      <a href="#rules" class="mobile-nav-link">Правила</a>
+      <a href="#what-to-take" class="mobile-nav-link">Що взяти</a>
+      <a href="#tips" class="mobile-nav-link">Поради</a>
+      <a href="#glossary" class="mobile-nav-link">Словник</a>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <div class="hero-slider swiper" id="heroSlider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide hero-slide">
+          <img src="/src/images/place/hero.jpg" alt="Яхт тур Blue Odyssey" class="hero-slide-img" />
+        </div>
+        <div class="swiper-slide hero-slide">
+          <img src="/src/images/place/hero2.jpg" alt="Іонічне море" class="hero-slide-img" />
+        </div>
+        <div class="swiper-slide hero-slide">
+          <img src="/src/images/place/hero3.jpg" alt="Яхта White Waves" class="hero-slide-img" />
+        </div>
+      </div>
+      <div class="swiper-pagination hero-pagination"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title">
+        Яхт тур<br />
+        <em class="hero-title-accent">Blue Odyssey</em>
+      </h1>
+      <p class="hero-subtitle">Ionian Paradise</p>
+      <div class="hero-meta">
+        <div class="hero-meta-block">
+          <span class="hero-meta-label">Дати туру</span>
+          <span class="hero-meta-value">20.06 – 27.06.2026</span>
+        </div>
+        <div class="hero-meta-divider"></div>
+        <div class="hero-meta-block">
+          <span class="hero-meta-label">Команда</span>
+          <span class="hero-meta-value">9 друзів · 1 яхта</span>
+        </div>
+      </div>
+      <p class="hero-description">
+        Ми пливемо не для того, щоб знайти місце, а щоб відкрити себе між блакиттю неба та кришталем глибин.
+        9 друзів, одна білосніжна яхта і безкрає Іонічне море — ми станемо єдиною командою, щоб разом готувати на воді, відкривати заповідні затоки та прожити свій найкращий епічний тиждень цього літа.
+      </p>
+    </div>
+  </section>
+
+  <section class="places-section" id="places">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Маршрут</span>
+        <h2 class="section-title">Місця що чекають</h2>
+        <p class="section-subtitle">Лефкада · Меганісі · Сивота · Ітака · Кефалонія · Васіліки</p>
+        <p class="section-lead">Попереду — штурм найкрутіших диких заток, галасливі спільні сніданки на палубі, кришталева вода Іоніки та свобода, яку можна розділити лише з найкращими.</p>
+      </div>
+
+      <div class="places-accordion" id="placesAccordion">
+
+        <div class="place-item">
+          <button class="place-question" aria-expanded="false">
+            <span class="place-num">01</span>
+            <span class="place-name">Лефкада</span>
+            <span class="place-toggle">+</span>
+          </button>
+          <div class="place-answer">
+            <div class="place-answer-inner">
+              <div class="place-img-wrap"><img src="/src/images/place/lefkada.jpg" alt="Лефкада" class="place-img" /></div>
+              <ul class="place-facts">
+                <li class="place-fact"><span class="place-fact-icon">⚓</span><span>Вайб та емоції: Хвилюючий момент заселення на яхту. Перший вечірній келих локального вина під легке погойдування хвиль.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🏛</span><span>Визначні пам'ятки: Середньовічна фортеця Святої Маври (Agia Mavra) на в'їзді острова.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌊</span><span>Природні дива: Всесвітньо відомі пляжі Порто Кацикі та Егремні — гігантські білі скелі над електрично-блакитною водою.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌅</span><span>Натхненний захід сонця біля маяка на мисі Лефката — саме на цих скелях оживають давньогрецькі міфи.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-item">
+          <button class="place-question" aria-expanded="false">
+            <span class="place-num">02</span>
+            <span class="place-name">Меганісі (Ваті)</span>
+            <span class="place-toggle">+</span>
+          </button>
+          <div class="place-answer">
+            <div class="place-answer-inner">
+              <div class="place-img-wrap"><img src="/src/images/place/meganisi.jpg" alt="Меганісі" class="place-img" /></div>
+              <ul class="place-facts">
+                <li class="place-fact"><span class="place-fact-icon">🫒</span><span>Вайб та емоції: Абсолютний спокій та автентика. Острів оливкових гаїв. Ідеальний вечір для святкової вечері на березі моря.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🏛</span><span>Визначні пам'ятки: Середньовічна фортеця Святої Маври (Agia Mavra) на в'їзді острова.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌊</span><span>Природні дива: Всесвітньо відомі пляжі Порто Кацикі та Егремні — гігантські білі скелі над електрично-блакитною водою.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-item">
+          <button class="place-question" aria-expanded="false">
+            <span class="place-num">03</span>
+            <span class="place-name">Сивота (Затока на Лефкаді)</span>
+            <span class="place-toggle">+</span>
+          </button>
+          <div class="place-answer">
+            <div class="place-answer-inner">
+              <div class="place-img-wrap"><img src="/src/images/place/sivota.jpg" alt="Сивота" class="place-img" /></div>
+              <ul class="place-facts">
+                <li class="place-fact"><span class="place-fact-icon">⚓</span><span>Вайб та емоції: Гавань мореплавців. Глибока, захищена від усіх вітрів бухта в оточенні зелених пагорбів. Тут панує атмосфера морського братерства та затишку.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🏛</span><span>Визначні пам'ятки: Набережна Сивоти, яка славиться найкращими рибними тавернами в Іонічному регіоні.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🍽</span><span>Атракції: Дегустація традиційного лефкадійського саламі, місцевого меду та розгляд сотень інших яхт, що пришвартовані поруч.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-item">
+          <button class="place-question" aria-expanded="false">
+            <span class="place-num">04</span>
+            <span class="place-name">Ітака (Фрікес або Кіоні)</span>
+            <span class="place-toggle">+</span>
+          </button>
+          <div class="place-answer">
+            <div class="place-answer-inner">
+              <div class="place-img-wrap"><img src="/src/images/place/ithaca.jpg" alt="Ітака" class="place-img" /></div>
+              <ul class="place-facts">
+                <li class="place-fact"><span class="place-fact-icon">🏺</span><span>Вайб та емоції: Повернення до витоків. Відчуття, що наша команда друзів повторила шлях Одіссея і досягла його омріяного дому. Момент глибокого натхнення.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🏘</span><span>Архітектурні дива: Селище Кіоні — амфітеатр із яскравих старовинних будиночків, які дивом уціліли під час історичного землетрусу.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌊</span><span>Природні дива: Дикі пляжі Гідакі або Філіатро — заповідні затоки, куди можна підійти лише з моря для командного купання.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌅</span><span>Захід сонця біля старовинних вітряків на вході в бухту Кіоні.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-item">
+          <button class="place-question" aria-expanded="false">
+            <span class="place-num">05</span>
+            <span class="place-name">Острів Кефалонія (Самі)</span>
+            <span class="place-toggle">+</span>
+          </button>
+          <div class="place-answer">
+            <div class="place-answer-inner">
+              <div class="place-img-wrap"><img src="/src/images/place/kefalonia.jpg" alt="Кефалонія" class="place-img" /></div>
+              <ul class="place-facts">
+                <li class="place-fact"><span class="place-fact-icon">🗻</span><span>Вайб та емоції: Масштаб у стилі Assassin's Creed. Величні дикі гори, таємничі печери та потужна енергетика найбільшого острова в архіпелазі.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🕳</span><span>Природні дива: Печера Меліссані — підземне озеро з обваленою стелею та Печера Дрогараті — підземний зал під куполом із тисячолітніми сталактитами. Магія Меліссані: Обов'язково відвідайте печеру Меліссані на Кефалонії строго між 11:30 та 13:30. У цей час промені сонця падають вертикально вглиб озера, через що виникає оптичний ефект — човни здаються підвішеними у повітрі. Вайб комп'ютерної гри (для тих хто в темі): Коли будете підходити до Кефалонії, зверніть увагу на вершину гори Енос. Саме з цієї локації у грі Assassin's Creed: Odyssey ваш персонаж запускав свого орла Ікароса для розвідки.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🏖</span><span>Визначні пам'ятки: Пляж Міртос — візитівка Греції з білосніжною галькою та неймовірним кольором води.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌅</span><span>Фантастичний захід сонця з оглядового майданчика на високих скелях над Агією Евфімою.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-item">
+          <button class="place-question" aria-expanded="false">
+            <span class="place-num">06</span>
+            <span class="place-name">Васіліки (Лефкада)</span>
+            <span class="place-toggle">+</span>
+          </button>
+          <div class="place-answer">
+            <div class="place-answer-inner">
+              <div class="place-img-wrap"><img src="/src/images/place/vasiliki.jpg" alt="Васіліки" class="place-img" /></div>
+              <ul class="place-facts">
+                <li class="place-fact"><span class="place-fact-icon">🏄</span><span>Вайб та емоції: Драйв, адреналін та активний рух. Васіліки — світова столиця віндсерфінгу. Енергія сотень яскравих вітрил, що літають над затокою.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🛶</span><span>Атракції: Командні перегони на SUP-бордах, каяках або перші спроби підкорити вітер на віндсерфі. Остання велика святкова вечеря на борту.</span></li>
+                <li class="place-fact"><span class="place-fact-icon">🌅</span><span>Захід сонця над широкою спортивною затокою в оточенні гірських схилів.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section" id="yacht">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Наша яхта</span>
+        <h2 class="section-title">White Waves</h2>
+        <p class="section-lead">Тур буде проходити на борту розкішного катамарану Lagoon 42 (2020 року). Наш катамаран має 4 комфортні двомісні каюти, розраховані на 8 осіб та 4 окремі санвузли (туалет/душ), простора зона відпочинку та кухня, величезна палуба для засмагання. Борт оснащений кондиціонером, генератором, інвертером, сонячними панелями та електричними туалетами.</p>
+      </div>
+    </div>
+    <div class="gallery-slider swiper" id="gallerySlider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/layout.jpg" alt="Планування яхти" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/layout_white waves.jpg" alt="White Waves Layout" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/main_white waves.jpg" alt="White Waves" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n1_white waves.jpg" alt="Каюта" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n2_white waves.jpg" alt="Палуба" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n3_white waves.jpg" alt="Вітрило" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n4_white waves.jpg" alt="Море" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n5_white waves.jpg" alt="Захід сонця" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n6_white waves.jpg" alt="Затока" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n7_white waves.jpg" alt="Острів" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n8_white waves.jpg" alt="Плавання" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n9_white waves.jpg" alt="Команда" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/n99_white waves.jpg" alt="Яхта" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/p1_white waves.jpg" alt="Порт" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/p2_white waves.jpg" alt="Причал" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/p3_white waves.jpg" alt="Марина" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/r1_white waves.jpg" alt="Відпочинок" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/r2_white waves.jpg" alt="Зона відпочинку" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/r3_white waves.jpg" alt="Релакс" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/w1_white waves.jpg" alt="Хвилі" class="gallery-img" /></div>
+        <div class="swiper-slide gallery-slide"><img src="/src/images/gallery/w2_white waves.jpg" alt="Вода" class="gallery-img" /></div>
+      </div>
+      <div class="swiper-button-prev gallery-btn-prev"></div>
+      <div class="swiper-button-next gallery-btn-next"></div>
+      <div class="swiper-pagination gallery-pagination"></div>
+    </div>
+  </section>
+
+  <section class="specs-section">
+    <div class="container">
+      <div class="specs-grid">
+        <div class="spec-card">
+          <span class="spec-icon">🛋</span>
+          <span class="spec-number">4</span>
+          <span class="spec-label">Каюти</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-icon">🛁</span>
+          <span class="spec-number">4</span>
+          <span class="spec-label">Санвузли</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-icon">🍽</span>
+          <span class="spec-number">1</span>
+          <span class="spec-label">Зона для відпочинку</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-icon">⚓</span>
+          <span class="spec-number">42</span>
+          <span class="spec-label">Lagoon 42 (катамаран)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skipper-section" id="skipper">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Команда</span>
+        <h2 class="section-title">Наш Шкіпер</h2>
+      </div>
+      <div class="skipper-card">
+        <div class="skipper-photo-wrap">
+          <img src="/src/images/skipper.jpg" alt="Ярослав Муравйов" class="skipper-photo" />
+          <div class="skipper-badge">Шкіпер</div>
+        </div>
+        <div class="skipper-info">
+          <h3 class="skipper-name">Ярослав Муравйов Шкіпер</h3>
+          <p class="skipper-subtitle">Капітан яхти · Сертифікований шкіпер</p>
+          <ul class="skipper-facts">
+            <li class="skipper-fact">У складі команди зі спортивного вітрильного спорту з 2019 року. Брав участь у понад 15 вітрильних змаганнях в Україні, в тому числі в Національному чемпіонаті України (ORC).</li>
+            <li class="skipper-fact">Відмінно знайомий з водами Середземного (Туреччина, Греція, Італія), Адріатичного моря (Чорногорія, Хорватія)</li>
+            <li class="skipper-fact">Професіонал своєї справи, головним принципом вважає безпеку на борту та комфорт екіпажу</li>
+            <li class="skipper-fact">Легко може згуртувати незнайомих між собою людей на борту яхти і до кінця туру це вже "морська сім'я", яка не хоче розлучатися.</li>
+            <li class="skipper-fact">Прихильник активного, здорового способу життя.</li>
+            <li class="skipper-fact">Володіє українською, англійською та польською мовами.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section" id="rules">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Підготовка</span>
+        <h2 class="section-title">Правила поведінки на яхті</h2>
+        <p class="section-lead">Правила поведінки та безпеки на яхті («яхтовий етикет») — це найважливіша частина підготовки, особливо коли на борту збирається велика компанія з 9 друзів. Життя в обмеженому просторі вимагає чітких правил, щоб подорож пройшла без травм і конфліктів.</p>
+      </div>
+      <div class="info-list">
+        <div class="info-item">
+          <div class="info-item-header">
+            <span class="info-num">1</span>
+            <p class="info-title">Головне правило: Капітан (Шкіпер) — закон</p>
+          </div>
+          <div class="info-body">
+            <ul class="info-facts">
+              <li class="info-fact">На борту яхти панує повна монархія. Слово капітана — це закон для всіх.</li>
+              <li class="info-fact">Якщо капітан каже: «Усі в каюти», «Одягти рятувальні жилети» або «Прибрати пальці від тросів» — це виконується миттєво і без обговорень. Капітан відповідає за ваші життя та за безпеку дорогого судна.</li>
+              <li class="info-fact">При стоянці в марині поруч з іншими яхтами необхідно дотримуватися яхтового етикету, інформацію про який надасть Капітан.</li>
+              <li class="info-fact">При швартуванні яхти необхідно дотримуватися тиші, щоб було легше почути вказівки Капітана. Також – не загороджувати Капітану огляд.</li>
+              <li class="info-fact">Заборонено включати і перемикати пристрої на яхті, не уточнивши у Капітана їх призначення, та без згоди або команди Капітана.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-item-header">
+            <span class="info-num">2</span>
+            <p class="info-title">Взуттєвий етикет: Жодних підборів чи брудних підошв</p>
+          </div>
+          <div class="info-body">
+            <ul class="info-facts">
+              <li class="info-fact">По палубі яхти ходять тільки в спеціальному взутті — це топсайдери або чисті кросівки (кеди) з білою або світлою м'якою підошвою, яка не залишає чорних слідів і не ковзає.</li>
+              <li class="info-fact">Взуття, в якому ви ходили по суходолу (в ресторані, по лісу, по місту), залишається на кормі (в кошику або на містку) перед тим, як ви ступаєте на палубу.</li>
+              <li class="info-fact">Підбори чи важкі черевики суворо заборонені — вони можуть пробити пластик або пошкодити тикове дерево. У спеку по палубі ходять босоніж, але акуратно, щоб не забити пальці об металеві кріплення.</li>
+              <li class="info-fact">Яхтове взуття повинно міцно сидіти на нозі, мати неслизьку і немарку підошву, захищати пальці ніг.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-item-header">
+            <span class="info-num">3</span>
+            <p class="info-title">Особлива магія туалету (Гальюна)</p>
+          </div>
+          <div class="info-body">
+            <ul class="info-facts">
+              <li class="info-fact">Яхтовий туалет працює за рахунок прокачної системи (ручної або електричної).</li>
+              <li class="info-fact">Правило №1 у світі яхтингу: Туди не можна кидати нічого, що не пройшло через ваш організм. Туалетний папір, вологі серветки, засоби гігієни кидають виключно в окреме відро для сміття.</li>
+              <li class="info-fact">Засмічення гальюна — це найпоширеніша проблема. Його ремонт у морі коштує від 150–200 євро, і платить за це той, хто його забив (або сума вираховується з командного страхового депозиту).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-item-header">
+            <span class="info-num">4</span>
+            <p class="info-title">Безпека під час руху (Переходи під вітрилами, або на моторі)</p>
+          </div>
+          <div class="info-body">
+            <ul class="info-facts">
+              <li class="info-fact">Правило трьох точок: Під час руху яхти завжди тримайтеся за човен щонайменше трьома точками (наприклад, дві ноги та одна рука на поручні/леєрі). Ніколи не стійте на палубі на повний зріст без опори.</li>
+              <li class="info-fact">Остерігайтеся гіка: Гік — це велика горизонтальна металева балка, що тримає вітрило. Під час повороту яхти вітром він перелітає з боку на бік із величезною швидкістю. Шкіпер завжди попереджає про поворот командою «Поворот!» або «Гік!». У цей момент усім на палубі потрібно пригнути голову або сісти в кокпіті (зоні відпочинку).</li>
+              <li class="info-fact">Ніколи не намотуйте мотузки (шкоти) на пальці чи кисті — при сильному пориві вітру вітрило смикне мотузку і може травмувати руку. Працюючи з мотузками бажано використовувати яхтові рукавички.</li>
+              <li class="info-fact">На борту яхти заборонено використання наркотичних засобів.</li>
+              <li class="info-fact">Всі члени екіпажу яхти повинні дотримуватися правил пожежної безпеки. Палити всередині яхти (в салоні) заборонено. При палінні на палубі – обов'язково уточнити допустиме місце для паління у капітана.</li>
+              <li class="info-fact">Заборонено кидати за борт сміття, включаючи недопалки.</li>
+              <li class="info-fact">Кухня (Камбуз): Під час руху нічого не залишаємо на столах — все полетить на підлогу при першому ж нахилі або хвилі від катера, що проходить повз.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-item-header">
+            <span class="info-num">5</span>
+            <p class="info-title">Сонцезахисні засоби та догляд</p>
+          </div>
+          <div class="info-body">
+            <ul class="info-facts">
+              <li class="info-fact">На воді сонце обпікає вдвічі швидше через відблиски. Сонцезахисний крем — обов'язковий.</li>
+              <li class="info-fact">Важливо: На яхтах заборонено використовувати сонцезахисні спреї та олії. Спрей розлітається від вітру і покриває пластик або тик жирною плівкою, через що палуба стає смертельно слизькою, а сама олія залишає жовті плями на білих сидіннях, які не відмиваються. Використовуйте лише класичні креми.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-item-header">
+            <span class="info-num">6</span>
+            <p class="info-title">Економія ресурсів (Прісна вода та електрика)</p>
+          </div>
+          <div class="info-body">
+            <ul class="info-facts">
+              <li class="info-fact">Прісна вода на яхті міститься в баках (зазвичай 300–500 літрів на тиждень на весь човен). Якщо 9 людей будуть мити посуд під сильним струменем або приймати 15-хвилинний душ, вода закінчиться за один день. Навчіться мити посуд економно (наприклад, намилити все, а потім швидко сполоснути).</li>
+              <li class="info-fact">Електрика 220V на яхті зазвичай з'являється лише тоді, коли ви стоїте в обладнаній марині та підключені кабелем до берега. У морі працює мережа 12V (як у машині). Заряджайте телефони та павербанки під час роботи двигуна.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section info-section--alt" id="what-to-take">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Пакування</span>
+        <h2 class="section-title">Що взяти із собою на борт?</h2>
+      </div>
+      <div class="checklist-grid">
+        <div class="checklist-card">
+          <span class="checklist-icon">👜</span>
+          <h4 class="checklist-title">Тільки м'яка дорожня сумка</h4>
+          <p class="checklist-text">Жорсткі валізи на катамарані просто нікуди подіти, вони будуть заважати вам у каюті весь тиждень.</p>
+        </div>
+        <div class="checklist-card">
+          <span class="checklist-icon">🧴</span>
+          <h4 class="checklist-title">SPF 50+</h4>
+          <p class="checklist-text">Навіть для найзасмагліших — на білосніжній яхті, в морі, дуже активне сонце, навіть при похмурій погоді. Ви можете добряче згоріти, спочатку не відчувши.</p>
+        </div>
+        <div class="checklist-card">
+          <span class="checklist-icon">🧢</span>
+          <h4 class="checklist-title">Головний убір</h4>
+          <p class="checklist-text">Кепка, панамка, капелюх із зав'язками, щоб не залишити в океані назавжди.</p>
+        </div>
+        <div class="checklist-card">
+          <span class="checklist-icon">👕</span>
+          <h4 class="checklist-title">Туніка, сорочка</h4>
+          <p class="checklist-text">Муслінова або лляна з довгим рукавом, щоб захищати плечі та руки від сонця та вітру, особливо під час руху яхти.</p>
+        </div>
+        <div class="checklist-card">
+          <span class="checklist-icon">😎</span>
+          <h4 class="checklist-title">Сонцезахисні окуляри</h4>
+          <p class="checklist-text">Якісні, з UV-захистом. Відблиски від води подвоюють навантаження на очі.</p>
+        </div>
+        <div class="checklist-card">
+          <span class="checklist-icon">👟</span>
+          <h4 class="checklist-title">Взуття (2 пари)</h4>
+          <p class="checklist-text">1 пара для суші / 1 пара змінна для борту яхти (ідеальний варіант Крокси, але можуть бути інші сандалі/шльопанці з резиновою підошвою, яка не буде ковзати).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section" id="tips">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Корисне</span>
+        <h2 class="section-title">Декілька порад</h2>
+      </div>
+      <div class="tips-list">
+        <div class="tip-item">
+          <div class="tip-icon-wrap">👙</div>
+          <div class="tip-content">
+            <h4 class="tip-title">Одяг (Менше — краще)</h4>
+            <p class="tip-text">Беріть на 30% менше, ніж плануєте. Більшість часу ви будете в купальниках. Обов'язково: вітрівка для нічних переходів та льонова сорочка з довгим рукавом (щоб не згоріти). Рекомендуємо НЕ набирати багато речей з собою, тому що 90% вашого одягу під час перебування на яхті це буде купальник/плавки (їх можете брати досхочу) та кілька футболок, пара шортів, можливо 1-3 сукні/сарафани для прогулянок і виходу на острови.</p>
+            <p class="tip-text">Купальники/плавки: Мінімум 2-3 комплекти (щоб одні сохли, поки ви в інших). Вечірній вихід: Щось гарне для вечері в ресторані (сукня або легка сорочка). Вітрівка: Навіть у липні в морі ввечері може бути прохолодно і вітряно.</p>
+            <p class="tip-text">Важливо! Яхтові рукавички (не обов'язково): Кожен, хто ступив на борт яхти, стає членом команди, а це означає участь в управлінні яхтою. Щоб захистити руки під час роботи з мотузками і не натерти мозолі, знадобляться яхтові рукавички — цілісні або з обрізаними пальцями. Якщо вибираєте модель з відкритими пальцями, звертайте увагу, щоб вони доходили до другої фаланги, а відкритими залишалися лише кінчики.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-icon-wrap">💊</div>
+          <div class="tip-content">
+            <h4 class="tip-title">Косметичка «Морського вовка»</h4>
+            <p class="tip-text">SPF 50+: Сонце на воді підступне. Беріть креми, які не шкодять морю (ocean-friendly). Пантенол: Про всяк випадок (сподіваюся, не знадобиться). Засоби від укачування: «Драміну» краще мати вдосталь і завжди під рукою.</p>
+            <p class="tip-text">Також індивідуальна аптечка з болезаспокійливими, жарознижувальними засобами, ліками від розладу травлення, перев'язувальними пакетами, препаратами, які ви приймаєте у звичайному житті, та засобами від морської хвороби. Також ваш звичний набір засобів гігієни та прання речей.</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-icon-wrap">🔋</div>
+          <div class="tip-content">
+            <h4 class="tip-title">Техніка</h4>
+            <p class="tip-text">Powerbank: Хоча на яхті є розетки, вони працюють не завжди. Довгий зарядний кабель: Розетки в каютах бувають у дивних місцях. Блоки (адаптери) для зарядних пристроїв (телефонів, навушників, павербанків).</p>
+          </div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-icon-wrap">📄</div>
+          <div class="tip-content">
+            <h4 class="tip-title">Документи та Гроші</h4>
+            <p class="tip-text">Паспорт, страхівка та готівка (євро). Рекомендую оформлювати страховий поліс «активний відпочинок».</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section info-section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Бонус</span>
+        <h2 class="section-title">Предмети для більшого комфорту</h2>
+      </div>
+      <div class="comfort-grid">
+        <div class="comfort-item">📸 Фотоапарати, дрони.</div>
+        <div class="comfort-item">☕ Термочашка.</div>
+        <div class="comfort-item">🎵 Портативна колонка (бажано водонепроникна).</div>
+        <div class="comfort-item">🤿 Ласти, маски, трубки для снорклінгу.</div>
+        <div class="comfort-item">🎣 Вудки та рибальські снасті — можна взяти або орендувати.</div>
+      </div>
+      <p class="comfort-note">Якщо чогось не вистачить, можна докупити в супермаркеті. Просто пам'ятайте, що вільний простір буде обмежений.</p>
+    </div>
+  </section>
+
+  <section class="info-section" id="glossary">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Мова моря</span>
+        <h2 class="section-title">Короткий словник мандрівника</h2>
+        <p class="section-lead">Цей короткий словник містить найважливіші грецькі слова та морські терміни, які знадобляться вам під час яхтової подорожі. Насправді англійської мови цілком достатньо, але нотка ввічливості ніколи не завадить.</p>
+      </div>
+      <div class="glossary-groups">
+        <div class="glossary-group">
+          <h3 class="glossary-group-title">Грецькі вітання та ввічливість</h3>
+          <div class="glossary-list">
+            <div class="glossary-item"><span class="gloss-word">Я́су! (Γειά σου!)</span><span class="gloss-def">Привіт! / Бувай! (до однієї людини або друга)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Я́сас! (Γειά σας!)</span><span class="gloss-def">Вітаю! / До побачення! (шанобливо на «ви» або до групи людей)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Каліме́ра! (Καλημέρα!)</span><span class="gloss-def">Доброго ранку! / Доброго дня! (говорять приблизно до 14:00)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Каліопéра! (Καλησπέρα!)</span><span class="gloss-def">Доброго вечора! (говорять після 16:00–17:00)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Каліні́хта! (Καληνύχτα!)</span><span class="gloss-def">Надобраніч! (бажають лише перед тим, як іти спати)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ха́ріка полі́! (Χάρηκα πολύ!)</span><span class="gloss-def">Дуже радий знайомству!</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ті ка́ніс? (Τι κάνεις;)</span><span class="gloss-def">Як справи? (до однієї людини)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ті ка́нете? (Τι κάνετε;)</span><span class="gloss-def">Як ваші справи? (ввічливо або до кількох людей)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Кала́, ефхарісто́! (Καλά, ευχαριστώ!)</span><span class="gloss-def">Добре, дякую!</span></div>
+            <div class="glossary-item"><span class="gloss-word">Паракало́ (Παρακαλώ)</span><span class="gloss-def">Будь ласка / Нема за що</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ефхарісто́ полі́! (Ευχαριστώ πολύ!)</span><span class="gloss-def">Дуже дякую!</span></div>
+          </div>
+        </div>
+        <div class="glossary-group">
+          <h3 class="glossary-group-title">Морські терміни та швартування</h3>
+          <div class="glossary-list">
+            <div class="glossary-item"><span class="gloss-word">Маріна (Μαρίνα)</span><span class="gloss-def">Яхтовий порт</span></div>
+            <div class="glossary-item"><span class="gloss-word">Молос (Μώλος)</span><span class="gloss-def">Пірс, причал</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ангіра (Άγκυρα)</span><span class="gloss-def">Якір</span></div>
+            <div class="glossary-item"><span class="gloss-word">Калодіо (Καλώδιο)</span><span class="gloss-def">Електричний кабель (для підключення до берегового живлення)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ластіхо (Λάστιχο)</span><span class="gloss-def">Шланг для заправки водою</span></div>
+            <div class="glossary-item"><span class="gloss-word">Нерó (Νερό)</span><span class="gloss-def">Вода</span></div>
+            <div class="glossary-item"><span class="gloss-word">Рэвма (Ρεύμα)</span><span class="gloss-def">Електрика</span></div>
+          </div>
+        </div>
+        <div class="glossary-group">
+          <h3 class="glossary-group-title">В ресторані та таверні</h3>
+          <div class="glossary-list">
+            <div class="glossary-item"><span class="gloss-word">Таверна (Ταβέρνα)</span><span class="gloss-def">Традиційний грецький ресторан</span></div>
+            <div class="glossary-item"><span class="gloss-word">Логаріазмóс (Λογαριασμός)</span><span class="gloss-def">Рахунок</span></div>
+            <div class="glossary-item"><span class="gloss-word">Паракало (Παρακαλώ)</span><span class="gloss-def">Будь ласка</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ефхарістó (Ευχαριστώ)</span><span class="gloss-def">Дякую</span></div>
+            <div class="glossary-item"><span class="gloss-word">Неру за пага (Νερό με πάγο)</span><span class="gloss-def">Вода з льодом</span></div>
+            <div class="glossary-item"><span class="gloss-word">Фреско псарі (Φρέσκο ψάρι)</span><span class="gloss-def">Свіжа риба</span></div>
+            <div class="glossary-item"><span class="gloss-word">Хоріáтікі (Χωριάτικη)</span><span class="gloss-def">Грецький салат</span></div>
+            <div class="glossary-item"><span class="gloss-word">Стін ігє́йя мас! (Στην υγειά μας!)</span><span class="gloss-def">Будьмо! (тост)</span></div>
+          </div>
+        </div>
+        <div class="glossary-group">
+          <h3 class="glossary-group-title">Покупки та провізія</h3>
+          <div class="glossary-list">
+            <div class="glossary-item"><span class="gloss-word">Супермаркет (Σούπερ μάρκετ)</span><span class="gloss-def">Продуктовий магазин</span></div>
+            <div class="glossary-item"><span class="gloss-word">Псомі́ (Ψωμί)</span><span class="gloss-def">Хліб</span></div>
+            <div class="glossary-item"><span class="gloss-word">Пагос (Πάγος)</span><span class="gloss-def">Лід (корисно для кулера на яхті)</span></div>
+            <div class="glossary-item"><span class="gloss-word">Посó кáні? (Πόσο κάνει;)</span><span class="gloss-def">Скільки це коштує?</span></div>
+            <div class="glossary-item"><span class="gloss-word">Картá (Κάρτα)</span><span class="gloss-def">Банківська картка</span></div>
+            <div class="glossary-item"><span class="gloss-word">Метрітá (Μετρητά)</span><span class="gloss-def">Готівка (обов'язкова на малих островах)</span></div>
+          </div>
+        </div>
+        <div class="glossary-group">
+          <h3 class="glossary-group-title">Безпека та надзвичайні ситуації</h3>
+          <div class="glossary-list">
+            <div class="glossary-item"><span class="gloss-word">Воíтіа! (Βοήθεια!)</span><span class="gloss-def">Допоможіть!</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ятрóс (Γιατρός)</span><span class="gloss-def">Лікар</span></div>
+            <div class="glossary-item"><span class="gloss-word">Фармакі́о (Φαρμακείο)</span><span class="gloss-def">Аптека</span></div>
+            <div class="glossary-item"><span class="gloss-word">Астіномі́а (Αστυνομία)</span><span class="gloss-def">Поліція</span></div>
+            <div class="glossary-item"><span class="gloss-word">Ліменархі́о (Λιμεναρχείο)</span><span class="gloss-def">Портова поліція (саме вони перевіряють документи на яхту)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="/src/svg/svg.svg" alt="Blue Odyssey" class="footer-logo" />
+          <p class="footer-slogan">Розкрий свою власну Одіссею: пройди під вітрилами іонічну синяву від берегів Лефкади до диких висот Кефалонії. Жодних маркерів на карті — тільки вітер, хвилі та епічний шлях.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/anetta.solod/" target="_blank" title="Instagram" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/anetta.solod" target="_blank" title="Facebook" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://t.me/Lady_of_the_Wind" target="_blank" title="Telegram" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <h4 class="footer-col-title">Контакти</h4>
+          <div class="footer-contact-item">
+            <span class="footer-flag">🇺🇦 Україна</span>
+            <a href="tel:+380983006518" class="footer-phone">+38 098 300 65 18</a>
+            <span class="footer-contact-name">Anna</span>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-col-title">Навігація</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#places" class="footer-nav-link">Місця маршруту</a></li>
+            <li><a href="#yacht" class="footer-nav-link">Наша яхта</a></li>
+            <li><a href="#skipper" class="footer-nav-link">Шкіпер</a></li>
+            <li><a href="#rules" class="footer-nav-link">Правила на яхті</a></li>
+            <li><a href="#what-to-take" class="footer-nav-link">Що взяти</a></li>
+            <li><a href="#glossary" class="footer-nav-link">Словник</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">Copyright © Blue Odyssey 2026. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
