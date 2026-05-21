@@ -942,7 +942,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
    ================================================================ */
 .site-footer {
   background: var(--ocean-deep);
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .footer-top {
