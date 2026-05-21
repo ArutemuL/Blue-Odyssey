@@ -1071,7 +1071,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   }
 
   .header-inner { height: 72px; }
-  .logo-img { width: 170px; height: 170px; }
+  .logo-img { width: 52px; height: 52px; }
 
   .section-header { margin-bottom: 48px; }
 
@@ -1134,7 +1134,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   /* Footer */
   .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
   .footer-brand { grid-column: 1 / -1; }
-  .footer-logo { width: 300px; height: 130px; }
+  .footer-logo { width: 70px; height: 70px; }
 }
 
 /* ================================================================
@@ -1146,7 +1146,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   }
 
   .header-inner { height: 76px; gap: 48px; }
-  .logo-img { width: 200px; height: 200px; }
+  .logo-img { width: 56px; height: 56px; }
 
   /* Show desktop nav, hide burger */
   .main-nav {
@@ -1237,6 +1237,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   /* Footer */
   .footer-top { grid-template-columns: 1.8fr 1fr 1fr; gap: 60px; margin-bottom: 60px; padding-bottom: 60px; }
   .footer-brand { grid-column: auto; }
-  .footer-logo { width: 500px; height: 200px; }
+  .footer-logo { width: 80px; height: 80px; }
   .site-footer { padding: 20px 0 40px; }
 }
