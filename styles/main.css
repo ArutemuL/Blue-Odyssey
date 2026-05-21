@@ -152,8 +152,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .logo { flex-shrink: 0; }
 .logo-img {
-  width: 140px;
-  height: 140px;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+.logo-img-text {
+  width: 120px;
+  height: 44px;
   object-fit: contain;
   filter: brightness(0) invert(1);
 }
@@ -949,8 +955,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .footer-logo {
-  width: 200px;
-  height: 100px;
+   width: 60px;
+  height: 60px;
   object-fit: contain;
   filter: brightness(0) invert(1) opacity(.9);
 }
