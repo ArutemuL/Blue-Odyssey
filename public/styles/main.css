@@ -146,14 +146,20 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .header-inner {
   display: flex;
   align-items: center;
-  height: 64px;
-  gap: 24px;
+  height: 76px;
+  gap: 16px;
 }
 
 .logo { flex-shrink: 0; }
 .logo-img {
-  width: 140px;
-  height: 140px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+.logo-img-text {
+  width: 160px;
+  height: 60px;
   object-fit: contain;
   filter: brightness(0) invert(1);
 }
@@ -949,10 +955,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .footer-logo {
-  width: 200px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   filter: brightness(0) invert(1) opacity(.9);
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 100px;
 }
 
 .footer-slogan {
@@ -1064,8 +1073,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     --section-gap: 72px;
   }
 
-  .header-inner { height: 72px; }
-  .logo-img { width: 170px; height: 170px; }
+  .header-inner { height: 80px; }
+  .logo-img { width: 66px; height: 66px; }
 
   .section-header { margin-bottom: 48px; }
 
@@ -1128,7 +1137,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   /* Footer */
   .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
   .footer-brand { grid-column: 1 / -1; }
-  .footer-logo { width: 300px; height: 130px; }
+  .footer-logo { width: 100px; height: 100px; }
 }
 
 /* ================================================================
@@ -1139,8 +1148,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     --section-gap: 96px;
   }
 
-  .header-inner { height: 76px; gap: 48px; }
-  .logo-img { width: 200px; height: 200px; }
+  .header-inner { height: 84px; gap: 48px; }
+  .logo-img { width: 72px; height: 72px; }
+  .logo-img-text { width: 180px; height: 180px; }
 
   /* Show desktop nav, hide burger */
   .main-nav {
@@ -1231,6 +1241,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   /* Footer */
   .footer-top { grid-template-columns: 1.8fr 1fr 1fr; gap: 60px; margin-bottom: 60px; padding-bottom: 60px; }
   .footer-brand { grid-column: auto; }
-  .footer-logo { width: 500px; height: 200px; }
-  .site-footer { padding: 20px 0 40px; }
+  .footer-logo { width: 110px; height: 110px; }
+  .site-footer { padding: 40px 0 40px; }
 }
